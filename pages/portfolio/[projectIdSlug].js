@@ -8,8 +8,8 @@ import { useRouter } from "next/router";
 function PortfolioProjectPage() {
   const router = useRouter();
 
-  console.log("Path name: " + router.pathname);
-  console.log("Query: " + router.query);
+  console.log(router.pathname);
+  console.log(router.query);
 
   return <h1>The Portfolio Project Page</h1>;
 }
