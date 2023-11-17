@@ -1,6 +1,6 @@
-// * A Slug is the unique identifying part of a web address, typically at the end of the URL.
-// [projectIdSlug] is a placeholder slug and it can be routed to, by any slug.
-//todo: http://localhost:3000/portfolio/any_slug_here
+// -> A Slug is the unique identifying part of a web address, typically at the end of the URL.
+//* [projectIdSlug] is a placeholder slug and it can be routed to, by any slug.
+//# http://localhost:3000/portfolio/any_slug_here
 //! Except http://localhost:3000/portfolio/list, because the "portfolio/list" route is already defined
 
 import { useRouter } from "next/router";

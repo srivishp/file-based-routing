@@ -1,4 +1,4 @@
-//! CATCH-ALL ROUTES
+//-> CATCH-ALL ROUTES
 //* ... is used to define a catch all route -> [...slug].js
 // If we add ... before a file name in a dynamic route,
 // Next JS catches all the slugs after the concrete(non-dynamic) folder slug
@@ -6,7 +6,7 @@
 // and generates an array of strings in the router object
 
 //! Example:
-//todo: http://localhost:3000/blog/2020/12/25 generates as follows
+//# http://localhost:3000/blog/2020/12/25 generates as follows
 //* blogIdSlug: ["2020","12","25"]
 
 // We can use these values to filter and display specific pages or content as required
